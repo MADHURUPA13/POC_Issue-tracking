@@ -13,20 +13,20 @@
     <div class="txt">
     <button class="btn btn-primary" onclick="addProject()">ProjectsData</button><br><br>
   <div id="hiddenData">
-    <label>Projects List:</label> 
+    <label><b>Projects List:</b></label> 
        <select id="proj" name="proj" onchange="getteam(this.value)">
           <option value="">--select--</option>
        </select>
-       <h2>Technology Based On Project</h2>
+       <h2 style="color: rgb(0, 153, 255);">Technology Based On Project</h2>
        <div class="jumbotron" id="jumbo">
       <ol id="data">
       </ol>
       </div>
-      <label>Login :</label> 
+      <label><b>Login:</b></label> 
         <select id="dep"  onchange="getteam1(this.value)">
           <option value="">--select--</option>
         </select>
-        <h2>Based on Department showing issues and pending issues </h2>
+        <h2 style="color: rgb(0, 153, 255);">Based on Department showing issues and pending issues </h2>
         <div class="jumbotron" id="jumbo2" >
           <ol id="dpId"></ol>
         </div>

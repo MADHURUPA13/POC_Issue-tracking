@@ -29,7 +29,7 @@ function addProject() {
     }
     
     }
-    alert("Data submitted")
+    alert("Data Submitted Successfully")
 }
 function getteam(e) {
     document.getElementById('jumbo').style.display="block";
